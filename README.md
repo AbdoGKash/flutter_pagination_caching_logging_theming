@@ -28,7 +28,6 @@ The app appears to use The Movie Database (TMDB)-style data (a `movie_response` 
 - Error handling utilities (`api_error_handler.dart`, `api_result.dart`).  
 - Dependency injection bootstrap (`injection.dart`) to register services/repositories.  
 - Uses `bloc` / `flutter_bloc` for state management — there's a `movies_cubit.dart` (Cubit) handling movie-related state.
-- Platform-aware plugin registration (android/ios/web/desktop support) — generated web/plugin registration code exists in the concatenated file.
 
 ---
 
@@ -125,10 +124,7 @@ If you publish `pubspec.yaml`, ensure these dependencies are present with compat
 2. From the project root:
 ```bash
 flutter pub get
-flutter run -d chrome   # for web
-# or for Android/iOS:
-flutter run -d <device_id>
-# or to build an APK:
+# build an APK:
 flutter build apk
 ```
 
