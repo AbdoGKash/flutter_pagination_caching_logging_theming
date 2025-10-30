@@ -1,7 +1,6 @@
 # Flutter Pagination + Caching + Theming (Test Project)
 
 **Project name:** `flutter_pagination_caching_logging_theming` (test)
-**Dart SDK constraint:** `@dart = 2.13` (found in generated file header)
 
 ---
 
