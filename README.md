@@ -11,11 +11,9 @@ The goal of this project is to provide a simple and practical reference for deve
 ---
 
 ### Features  
-- 📜 **Pagination:** Smooth infinite scrolling with automatic page loading.  
-- 💾 **Caching:** Uses `flutter_cache_manager` and `cached_network_image` for efficient image and data caching.  
+- 📜 **Pagination:** Efficiently loads data page-by-page from the backend using an API, triggering the fetch of the next page automatically upon reaching the list's end (Scroll-Based Loading).  
+- 💾 **Caching:** Utilizes flutter_cache_manager and cached_network_image for efficient image and data caching, alongside SQLite for structured local database management and Shared Preferences for simple key-value storage.  
 - 🎨 **Dynamic Theming:** Toggle between light and dark modes with theme persistence.  
-- ⚙️ **Clean Architecture:** Well-organized and modular Dart code for easy scalability and maintenance.  
-- 🚀 **Hot Reload Friendly:** Fully compatible with Flutter’s development workflow.
 
 ---
 
@@ -25,9 +23,7 @@ The goal of this project is to provide a simple and practical reference for deve
 * **Api Integration :** [Dio](https://pub.dev/packages/dio) | [Retrofit](https://pub.dev/packages/retrofit) | [Retrofit Generator](https://pub.dev/packages/retrofit_generator)| [pretty_dio_logger](https://pub.dev/packages/pretty_dio_logger)<br>
 * **Code Generation and Serialization :** [json_annotation](https://pub.dev/packages/json_annotation) | [json_serializable](https://pub.dev/packages/json_serializable) | [freezed](https://pub.dev/packages/freezed) | [freezed_annotation](https://pub.dev/packages/freezed_annotation) | [build_runner](https://pub.dev/packages/build_runner)<br>
 * **dependency injection :** [get_it](https://pub.dev/packages/get_it)<br>
-**cached_network_image** for image caching  
-**flutter_cache_manager** for data caching
-* **Caching :** [shared_preferences](https://pub.dev/packages/shared_preferences) | [sqflite](https://pub.dev/packages/sqflite)<br>
+* **Caching :** [shared_preferences](https://pub.dev/packages/shared_preferences) | [sqflite](https://pub.dev/packages/sqflite) | [cached_network_image](https://pub.dev/packages/cached_network_image) | [flutter_cache_manager](https://pub.dev/packages/flutter_cache_manager)<br>
 
 ---
 
