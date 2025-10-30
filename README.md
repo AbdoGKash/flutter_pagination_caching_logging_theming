@@ -26,7 +26,9 @@ The goal of this project is to provide a simple and practical reference for deve
 * **Code Generation and Serialization :** [json_annotation](https://pub.dev/packages/json_annotation) | [json_serializable](https://pub.dev/packages/json_serializable) | [freezed](https://pub.dev/packages/freezed) | [freezed_annotation](https://pub.dev/packages/freezed_annotation) | [build_runner](https://pub.dev/packages/build_runner)<br>
 * **dependency injection :** [get_it](https://pub.dev/packages/get_it)<br>
 **cached_network_image** for image caching  
-**flutter_cache_manager** for data caching  
+**flutter_cache_manager** for data caching
+* **Caching :** [shared_preferences](https://pub.dev/packages/shared_preferences) | [sqflite](https://pub.dev/packages/sqflite)<br>
+
 ---
 
 
