@@ -78,7 +78,6 @@ lib/
 - `MoviesCubit` keeps track of:
   - `currentPage` (e.g., starting at 1)
   - `isLoadingMore` / `isLoading`
-  - `hasMore` flag (determined by API total pages or empty page result)
   - `List<Movie> movies` — accumulated list of results
 
 - UI (`HomeScreen`) uses a `ListView.builder` (or `ListView.separated`) with a `ScrollController` or `NotificationListener<ScrollNotification>` to detect when the scroll reaches near the bottom. When detected and `hasMore` is true, it calls `moviesCubit.fetchNextPage()` or similar.
