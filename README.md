@@ -1,4 +1,4 @@
-# Flutter Pagination + Caching + Theming (Test Project)
+# Flutter Pagination + Caching + Theming + Error Logging (Test Project)
 
 ### Overview  
 This Flutter project is a demo application designed to experiment with three essential features often used in production-grade apps:  
