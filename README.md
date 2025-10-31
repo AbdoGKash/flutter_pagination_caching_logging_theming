@@ -6,7 +6,8 @@ This Flutter project is a demo application designed to experiment with three ess
 - **Caching** — Storing fetched data and remote images locally to improve performance and enable offline access.  
 - **Theming** — Applying dynamic themes (light/dark/custom) to enhance UI consistency and user experience.
 - **Error Logging**  — Capturing and reporting runtime errors and crashes in real-time using Firebase Crashlytics for better debugging and app stability monitoring.
-The goal of this project is to provide a simple and practical reference for developers learning how to implement these functionalities in a structured Flutter codebase.
+  
+>The goal of this project is to provide a simple and practical reference for developers learning how to implement these functionalities in a structured Flutter codebase.
 
 ---
 
