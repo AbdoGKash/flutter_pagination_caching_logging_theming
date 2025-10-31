@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "441475521533",
+    "project_id": "flutter-logging-89a2d",
+    "storage_bucket": "flutter-logging-89a2d.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:441475521533:android:27d16b2eb89399e2579794",
+        "android_client_info": {
+          "package_name": "com.example.flutter_pagination_caching_logging_theming"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA05I3LEhyitMIwGSWwZ7-S2d0dnuqvWOo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
